@@ -1,0 +1,13 @@
+nav
+    if !session.user
+        ul
+            li 
+                a(href="/users/signin") Ingresar
+            li
+                a(href="/users/signup") Registrate
+    else
+        a(href="/users/logout") Salir
+h1 Bienvenido
+p Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, debitis.
+p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, repellendus.
+p Lorem, ipsum dolor sit amet consectetur adipisicing elit. A, beatae!
